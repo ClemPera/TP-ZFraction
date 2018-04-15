@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1522046656 source:c:\users\clement pera\google drive\pc --_ drive\c++\tp zfraction\main.cpp
+	<iostream>
+	"ZFraction.h"
+
+1522053251 c:\users\clement pera\google drive\pc --_ drive\c++\tp zfraction\zfraction.h
+	<iostream>
+
+1523833539 source:g:\google drive\pc --_ drive\c++\tp zfraction\main.cpp
+	<iostream>
+	"ZFraction.h"
+
+1523833232 g:\google drive\pc --_ drive\c++\tp zfraction\zfraction.h
+	<iostream>
+
+1523833525 source:g:\google drive\pc --_ drive\c++\tp zfraction\zfraction.cpp
+	"ZFraction.h"
+
