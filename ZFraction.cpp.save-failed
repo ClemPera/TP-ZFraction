@@ -1,0 +1,36 @@
+#include "ZFraction.h"
+
+using namespace std;
+
+//Constructeurs
+
+ZFraction::ZFraction(int m_numerateur, int m_denominateur) // si les deux sont rentrer
+{
+    cout << "2 ont été rentré : " << m_numerateur << "/" << m_denominateur << endl;
+}
+
+ZFraction::ZFraction(int m_numerateur) // si 1 seul argument est rentré
+{
+    m_denominateur = 1;
+    cout << "1 a été rentré : " << m_numerateur << "/" << m_denominateur << endl;
+}
+
+ZFraction::ZFraction() // si aucun seul argument est rentré
+{
+    m_denominateur = 1;
+    m_numerateur = 1;
+    cout << "0 a été rentré : " << m_numerateur << "/" << m_denominateur << endl;
+}
+
+
+
+
+void ZFraction::afficherValeurs()
+{
+    cout << "Valeur de la fraction : " << m_numerateur << "/" << m_denominateur << endl;
+}
+
+ZFraction::~ZFraction() //Destructeur
+{
+
+}
