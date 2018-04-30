@@ -30,9 +30,12 @@
 *.exe
 *.out
 *.app
+<<<<<<< HEAD
 
 #Other
 *.save-failed
 *.depend
 *.layout
 *.sh
+=======
+>>>>>>> refs/remotes/origin/master

@@ -10,6 +10,7 @@ public:
     ZFraction(int m_numerateur);
     ZFraction(int m_numinateur, int m_denominateur);
     ~ZFraction();
+<<<<<<< HEAD
 
     int ValeursNum();
     int ValeursDenum();
@@ -28,4 +29,16 @@ private:
 
 int operator+(ZFraction const& a, ZFraction const& b);
 
+=======
+    void afficherValeurs();
+
+private:
+    int num;
+    int den;
+    int m_numerateur;      //Le numérateur de la fraction
+    int m_denominateur;    //Le dénominateur de la fraction
+
+};
+
+>>>>>>> refs/remotes/origin/master
 #endif

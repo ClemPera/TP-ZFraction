@@ -5,6 +5,7 @@ using namespace std;
 
 int main()
 {
+<<<<<<< HEAD
     ZFraction a(1,5); // CrÃ©e une fraction valant 1/5
     ZFraction b(2);
     ZFraction c;
@@ -19,5 +20,9 @@ int main()
 
 
    // c.calcul(+);
+=======
+    ZFraction b; // Crée une fraction valant 1/5
+    b.afficherValeurs();
+>>>>>>> refs/remotes/origin/master
     return 0;
 }
